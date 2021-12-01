@@ -1,0 +1,1 @@
+module.exports = (str, flags) => new RegExp(str.normalize("NFD").replace(/\p{Diacritic}/gu, "").replace(/a/i, "[aáàảãạăắằẳẵặâấầẩẫậ]").replace(/u/i, "[uúùủũụưứừửữự]").replace(/e/i, "[eéèẻẽẹêếềểễệ]").replace(/i/i, "[iíìỉĩị]").replace(/y/i, "[yýỳỷỹỵ]").replace(/o/i, "[oóòỏõọôốồổỗộơớờởỡợ]").replace(/d/i, "[dđ]"), flags);
