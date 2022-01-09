@@ -3,7 +3,7 @@
     "{1}": "Email is being used",
     "{2}": "Email is required",
     "{3}": " is not a valid phone number",
-    "{4}": "",
+    "{4}": "This account doesn't exist or credentials are incorrect",
     "{5}": "Email is wrong format",
     "{6}": "Password must be more than 8 characters, including uppercase, lowercase, numbers and special symbols",
     "{7}": "",
